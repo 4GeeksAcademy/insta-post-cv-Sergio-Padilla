@@ -1,0 +1,71 @@
+body {
+    font-family: "Roboto";
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100;
+}
+
+.container {
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.puntos {
+    margin-left: 280px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.header h3 {
+    margin-left: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.actions i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.likes {
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+.caption {
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.caption span {
+    font-weight: bold;
+}
